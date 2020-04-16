@@ -9,7 +9,7 @@ class Image_Data_Preprocess_Hanlder:
         path_filenames = []
         filename_list = []
         for file in filenames:
-            if not file.startswith('.'):
+            if not file.startswith('.') and (file.endswith(".jpg") or file.endswith(".png")):
                 path_filenames.append(os.path.join(path, file))
                 filename_list.append(file)
  

@@ -1,7 +1,7 @@
 import os
 import shutil
 import sys
-from utils import data_prepare
+from utils import data_pre_handler
 
 def image_data_post_handler(file_list, 
                             bench_result_dict,
